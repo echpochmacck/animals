@@ -40,6 +40,9 @@ class OrderController extends \yii\rest\Controller
                 ],
                 'delete' => [
                     'Access-Control-Allow-Creditials' => true,
+                ],
+                'rewrite' => [
+                    'Access-Control-Allow-Creditials' => true,
                 ]
             ]
 
